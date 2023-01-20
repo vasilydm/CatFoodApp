@@ -1,0 +1,18 @@
+.Layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 5.5fr;
+  width: 100%;
+}
+
+@media screen and (max-width: 1260px) {
+  .Layout {
+    grid-template-rows: 1fr 10fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Layout {
+    grid-template-rows: 1fr 14fr;
+  }
+}

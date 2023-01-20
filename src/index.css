@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'exo2_0_regular';
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(20, 12, 27);
+  background-image:  url("../src/photos/pattern2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Exo2.0-Thin";
+  src: local("Exo2.0-Thin"),
+    url("./fonts/Exo2.0-Thin.otf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "exo2_0_regular";
+  src: local("exo2_0_regular"),
+    url("./fonts/exo2_0_regular.otf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "exo2_0_bold";
+  src: local("exo2_0_bold"),
+    url("./fonts/exo2_0_bold.otf") format("truetype");
+  font-weight: 100;
+}

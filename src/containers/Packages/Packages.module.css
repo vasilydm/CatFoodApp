@@ -1,0 +1,41 @@
+.Packages {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+@media screen and (max-width: 1260px) {
+  .Packages {
+    display: grid;
+    grid-template-areas:
+    "A A A A   A A A A   A A A A"
+    "B B B B   B B C C   C C C C"
+    "B B B B   B B C C   C C C C";
+    justify-items: center;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .Packages:nth-child(2) > :nth-child(1) {
+    grid-area: A;
+  }
+
+  .Packages:nth-child(2) > :nth-child(2) {
+    grid-area: B;
+  }
+
+  .Packages:nth-child(2) > :nth-child(3) {
+    grid-area: C;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Packages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
