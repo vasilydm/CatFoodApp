@@ -119,3 +119,7 @@
   color: rgb(22,152,217);
   text-decoration: underline dashed;
 }
+
+.bottomLink:hover {
+  cursor: pointer;
+}
