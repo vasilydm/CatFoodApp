@@ -9,8 +9,8 @@ Here is the stack:
 * :stuck_out_tongue_closed_eyes: JavaScript
 * :thinking: ReactJS
 
-Here is the Desktop view:
-<img style="width: 450px" src="./src/photos/Desktop.png" /></br>
+Here is the Desktop view:</br>
+<img style="width: 850px" src="./src/photos/Desktop.png" /></br>
 
-Here is the Mobile view:
-<img style="width: 450px" src="./src/photos/Mobile.png" />
+Here is the Mobile view:</br>
+<img style="width: 550px" src="./src/photos/Mobile.png" /></br>
